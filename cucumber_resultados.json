@@ -1,0 +1,1242 @@
+[
+  {
+    "uri": "features/gestionarCategoria.feature",
+    "id": "gestionar-categoria",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Gestionar Categoria",
+    "description": "",
+    "elements": [
+      {
+        "id": "crear-una-categoria-nueva",
+        "line": 4,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Crear una categoria nueva",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 5,
+            "name": "Abrir Navegador para inicio sesi\u00f3n",
+            "result": {
+              "status": "passed",
+              "duration": 12.650849103927612
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 6,
+            "name": "Ingreso de credenciales y direccionamiento al sistema",
+            "result": {
+              "status": "passed",
+              "duration": 6.907944917678833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 7,
+            "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashCategoria",
+            "result": {
+              "status": "passed",
+              "duration": 0.9332888126373291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 8,
+            "name": "Se selecciona el bot\u00f3n para crear una nueva categoria",
+            "result": {
+              "status": "passed",
+              "duration": 0.9103164672851562
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 9,
+            "name": "Se completa el formulario para la nueva categoria",
+            "result": {
+              "status": "passed",
+              "duration": 1.4346466064453125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 10,
+            "name": "Se guarda la nueva categoria",
+            "result": {
+              "status": "passed",
+              "duration": 1.3727128505706787
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 11,
+            "name": "Se verifica que la categoria \"TestCategory\" fue creado correctamente",
+            "result": {
+              "status": "passed",
+              "duration": 0.2270052433013916
+            }
+          }
+        ]
+      },
+      {
+        "id": "editar-una-categoria-en-el-sistema",
+        "line": 13,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Editar una categoria en el sistema",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 14,
+            "name": "Abrir Navegador para inicio sesi\u00f3n",
+            "result": {
+              "status": "passed",
+              "duration": 8.899962186813354
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 15,
+            "name": "Ingreso de credenciales y direccionamiento al sistema",
+            "result": {
+              "status": "passed",
+              "duration": 7.026204824447632
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 16,
+            "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashCategoria",
+            "result": {
+              "status": "passed",
+              "duration": 1.4191005229949951
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 17,
+            "name": "Se selecciona el bot\u00f3n para editar una categoria",
+            "result": {
+              "status": "passed",
+              "duration": 4.691755294799805
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 18,
+            "name": "Se edita el nombre de la categoria de TestCategory a TestCategoryUpdated",
+            "result": {
+              "status": "passed",
+              "duration": 5.5116050243377686
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 19,
+            "name": "Se guarda la categoria editada",
+            "result": {
+              "status": "passed",
+              "duration": 2.919750213623047
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 20,
+            "name": "Se verifica que la categoria fue editada correctamente",
+            "result": {
+              "status": "passed",
+              "duration": 0.19082880020141602
+            }
+          }
+        ]
+      },
+      {
+        "id": "eliminar-una-categoria-en-el-sistema",
+        "line": 22,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Eliminar una categoria en el sistema",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 23,
+            "name": "Abrir Navegador para inicio sesi\u00f3n",
+            "result": {
+              "status": "passed",
+              "duration": 7.2842934131622314
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 24,
+            "name": "Ingreso de credenciales y direccionamiento al sistema",
+            "result": {
+              "status": "passed",
+              "duration": 6.683627128601074
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 25,
+            "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashCategoria",
+            "result": {
+              "status": "passed",
+              "duration": 1.3167948722839355
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 26,
+            "name": "Se selecciona el bot\u00f3n para eliminar una categoria",
+            "result": {
+              "status": "passed",
+              "duration": 4.77542519569397
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 27,
+            "name": "Se confirma la eliminaci\u00f3n de la categoria",
+            "result": {
+              "status": "passed",
+              "duration": 2.2903780937194824
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 28,
+            "name": "Se verifica que la categoria fue eliminada correctamente",
+            "result": {
+              "status": "passed",
+              "duration": 2.1509246826171875
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/gestionarExistencia.feature",
+    "id": "gestion-existencia",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Gestion Existencia",
+    "description": "",
+    "elements": [
+      {
+        "id": "crear-existencia",
+        "line": 4,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Crear existencia",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 5,
+            "name": "Abrir Navegador para inicio sesi\u00f3n",
+            "result": {
+              "status": "passed",
+              "duration": 8.216365098953247
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 6,
+            "name": "Ingreso de credenciales y direccionamiento al sistema",
+            "result": {
+              "status": "passed",
+              "duration": 6.810591697692871
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 7,
+            "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashboardExistencia",
+            "result": {
+              "status": "passed",
+              "duration": 1.3802108764648438
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 8,
+            "name": "Se selecciona el bot\u00f3n para crear una nueva existencia",
+            "result": {
+              "status": "passed",
+              "duration": 1.0431468486785889
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 9,
+            "name": "Se completa el formulario para nueva existencia",
+            "result": {
+              "status": "passed",
+              "duration": 11.069096565246582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 10,
+            "name": "Se guarda nueva existencia",
+            "result": {
+              "status": "passed",
+              "duration": 1.1453237533569336
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 11,
+            "name": "Se verifica que nueva existencia fue creada correctamente",
+            "result": {
+              "status": "passed",
+              "duration": 1.2137787342071533
+            }
+          }
+        ]
+      },
+      {
+        "id": "agregar-entrada-existencia",
+        "line": 13,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Agregar entrada existencia",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 14,
+            "name": "Abrir Navegador para inicio sesi\u00f3n",
+            "result": {
+              "status": "passed",
+              "duration": 11.546053886413574
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 15,
+            "name": "Ingreso de credenciales y direccionamiento al sistema",
+            "result": {
+              "status": "passed",
+              "duration": 7.0552849769592285
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 16,
+            "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashboardExistencia",
+            "result": {
+              "status": "passed",
+              "duration": 1.3341224193572998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 17,
+            "name": "Se selecciona el bot\u00f3n para agregar entrada",
+            "result": {
+              "status": "passed",
+              "duration": 1.0314061641693115
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 18,
+            "name": "Se agrega la cantidad",
+            "result": {
+              "status": "passed",
+              "duration": 1.6414012908935547
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 19,
+            "name": "Se registra la entrada",
+            "result": {
+              "status": "passed",
+              "duration": 0.8840904235839844
+            }
+          }
+        ]
+      },
+      {
+        "id": "agregar-salida-existencia",
+        "line": 21,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Agregar salida existencia",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 22,
+            "name": "Abrir Navegador para inicio sesi\u00f3n",
+            "result": {
+              "status": "passed",
+              "duration": 8.287375688552856
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 23,
+            "name": "Ingreso de credenciales y direccionamiento al sistema",
+            "result": {
+              "status": "passed",
+              "duration": 6.932449817657471
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 24,
+            "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashboardExistencia",
+            "result": {
+              "status": "passed",
+              "duration": 1.4660258293151855
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 25,
+            "name": "Se selecciona el bot\u00f3n para agregar salida",
+            "result": {
+              "status": "passed",
+              "duration": 0.8719305992126465
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 26,
+            "name": "Se agrega la cantidad salida",
+            "result": {
+              "status": "passed",
+              "duration": 1.3942179679870605
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 27,
+            "name": "Se registra la salida",
+            "result": {
+              "status": "passed",
+              "duration": 1.030386209487915
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/gestionarProducto.feature",
+    "id": "gestionar-producto",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Gestionar Producto",
+    "description": "",
+    "elements": [
+      {
+        "id": "crear-producto",
+        "line": 4,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Crear producto",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 5,
+            "name": "Abrir Navegador para inicio sesi\u00f3n",
+            "result": {
+              "status": "passed",
+              "duration": 9.81767463684082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 6,
+            "name": "Ingreso de credenciales y direccionamiento al sistema",
+            "result": {
+              "status": "passed",
+              "duration": 6.492830753326416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 7,
+            "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashboardProducto",
+            "result": {
+              "status": "passed",
+              "duration": 1.2340137958526611
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 8,
+            "name": "Se selecciona el bot\u00f3n para crear un nuevo producto",
+            "result": {
+              "status": "passed",
+              "duration": 0.8760509490966797
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 9,
+            "name": "Se completa el formulario para el nuevo producto",
+            "result": {
+              "status": "passed",
+              "duration": 7.04801344871521
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 10,
+            "name": "Se guarda el nuevo producto",
+            "result": {
+              "status": "passed",
+              "duration": 0.9556398391723633
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 11,
+            "name": "Se verifica que el producto fue creado correctamente",
+            "result": {
+              "status": "passed",
+              "duration": 1.2079617977142334
+            }
+          }
+        ]
+      },
+      {
+        "id": "editar-un-producto",
+        "line": 13,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Editar un producto",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 14,
+            "name": "Abrir Navegador para inicio sesi\u00f3n",
+            "result": {
+              "status": "passed",
+              "duration": 20.424955368041992
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 15,
+            "name": "Ingreso de credenciales y direccionamiento al sistema",
+            "result": {
+              "status": "passed",
+              "duration": 6.595960855484009
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 16,
+            "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashboardProducto",
+            "result": {
+              "status": "passed",
+              "duration": 0.8573014736175537
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 17,
+            "name": "Se selecciona el bot\u00f3n para editar un producto",
+            "result": {
+              "status": "passed",
+              "duration": 4.79544734954834
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 18,
+            "name": "Se edita el nombre de producto de Producto Test Selenium a Producto Updated",
+            "result": {
+              "status": "passed",
+              "duration": 5.782657861709595
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 19,
+            "name": "Se guarda el producto editado",
+            "result": {
+              "status": "failed",
+              "duration": 12.332392930984497
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 20,
+            "name": "Se verifica que el producto fue editado correctamente",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "eliminar-un-usuario-en-el-sistema",
+        "line": 22,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Eliminar un usuario en el sistema",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 23,
+            "name": "Abrir Navegador para inicio sesi\u00f3n",
+            "result": {
+              "status": "passed",
+              "duration": 7.442650556564331
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 24,
+            "name": "Ingreso de credenciales y direccionamiento al sistema",
+            "result": {
+              "status": "passed",
+              "duration": 5.99654221534729
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 25,
+            "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashboardProducto",
+            "result": {
+              "status": "passed",
+              "duration": 1.4187090396881104
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 26,
+            "name": "Se selecciona el bot\u00f3n para eliminar un producto",
+            "result": {
+              "status": "passed",
+              "duration": 4.5279388427734375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 27,
+            "name": "Se confirma la eliminaci\u00f3n del producto",
+            "result": {
+              "status": "passed",
+              "duration": 2.246948003768921
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 28,
+            "name": "Se verifica que el producto fue eliminado correctamente",
+            "result": {
+              "status": "passed",
+              "duration": 2.1349124908447266
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/gestionarProveedor.feature",
+    "id": "gestionar-proveedor",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Gestionar Proveedor",
+    "description": "",
+    "elements": [
+      {
+        "id": "crear-una-proveedor",
+        "line": 4,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Crear una proveedor",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 5,
+            "name": "Abrir Navegador para inicio sesi\u00f3n",
+            "result": {
+              "status": "passed",
+              "duration": 7.8665101528167725
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 6,
+            "name": "Ingreso de credenciales y direccionamiento al sistema",
+            "result": {
+              "status": "passed",
+              "duration": 6.748810529708862
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 7,
+            "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashProveedor",
+            "result": {
+              "status": "passed",
+              "duration": 1.2210910320281982
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 8,
+            "name": "Se selecciona el bot\u00f3n para crear un nuevo proveedor",
+            "result": {
+              "status": "passed",
+              "duration": 0.8383505344390869
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 9,
+            "name": "Se completa el formulario para el nuevo proveedor",
+            "result": {
+              "status": "passed",
+              "duration": 4.896785020828247
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 10,
+            "name": "Se guarda el nuevo proveedor",
+            "result": {
+              "status": "passed",
+              "duration": 0.9290900230407715
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 11,
+            "name": "Se verifica que el proveedor fue creado correctamente",
+            "result": {
+              "status": "passed",
+              "duration": 1.1738314628601074
+            }
+          }
+        ]
+      },
+      {
+        "id": "editar-un-proveedor-en-el-sistema",
+        "line": 13,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Editar un proveedor en el sistema",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 14,
+            "name": "Abrir Navegador para inicio sesi\u00f3n",
+            "result": {
+              "status": "passed",
+              "duration": 8.450302600860596
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 15,
+            "name": "Ingreso de credenciales y direccionamiento al sistema",
+            "result": {
+              "status": "passed",
+              "duration": 6.536898374557495
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 16,
+            "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashProveedor",
+            "result": {
+              "status": "passed",
+              "duration": 1.1665775775909424
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 17,
+            "name": "Se selecciona el bot\u00f3n para editar un proveedor",
+            "result": {
+              "status": "passed",
+              "duration": 4.590805768966675
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 18,
+            "name": "Se edita el nombre del proveedor",
+            "result": {
+              "status": "passed",
+              "duration": 5.657978057861328
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 19,
+            "name": "Se guarda el proveedor editado",
+            "result": {
+              "status": "passed",
+              "duration": 2.886389970779419
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 20,
+            "name": "Se verifica que el proveedor fue editado correctamente",
+            "result": {
+              "status": "passed",
+              "duration": 0.15770673751831055
+            }
+          }
+        ]
+      },
+      {
+        "id": "eliminar-una-categoria-en-el-sistema",
+        "line": 22,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Eliminar una categoria en el sistema",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 23,
+            "name": "Abrir Navegador para inicio sesi\u00f3n",
+            "result": {
+              "status": "passed",
+              "duration": 8.499058246612549
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 24,
+            "name": "Ingreso de credenciales y direccionamiento al sistema",
+            "result": {
+              "status": "passed",
+              "duration": 6.5419602394104
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 25,
+            "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashProveedor",
+            "result": {
+              "status": "passed",
+              "duration": 1.272951602935791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 26,
+            "name": "Se selecciona el bot\u00f3n para eliminar un proveedor",
+            "result": {
+              "status": "passed",
+              "duration": 4.522456169128418
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 27,
+            "name": "Se confirma la eliminaci\u00f3n del proveedor",
+            "result": {
+              "status": "passed",
+              "duration": 2.320302724838257
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 28,
+            "name": "Se verifica que el proveedor fue eliminado correctamente",
+            "result": {
+              "status": "passed",
+              "duration": 2.1440634727478027
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/gestionarUsuario.feature",
+    "id": "gestionar-usuario",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Gestionar Usuario",
+    "description": "",
+    "elements": [
+      {
+        "id": "crear-un-usuario-en-el-sistema",
+        "line": 4,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Crear un usuario en el sistema",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 5,
+            "name": "Abrir Navegador para inicio sesi\u00f3n",
+            "result": {
+              "status": "passed",
+              "duration": 9.24196481704712
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 6,
+            "name": "Ingreso de credenciales y direccionamiento al sistema",
+            "result": {
+              "status": "passed",
+              "duration": 6.7749598026275635
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 7,
+            "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashboarduser",
+            "result": {
+              "status": "passed",
+              "duration": 1.2774829864501953
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 8,
+            "name": "Se selecciona el bot\u00f3n para crear un nuevo usuario",
+            "result": {
+              "status": "passed",
+              "duration": 0.7633118629455566
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 9,
+            "name": "Se completa el formulario de creaci\u00f3n con datos v\u00e1lidos",
+            "result": {
+              "status": "passed",
+              "duration": 5.172575235366821
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 10,
+            "name": "Se guarda el nuevo usuario",
+            "result": {
+              "status": "passed",
+              "duration": 1.2719852924346924
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 11,
+            "name": "Se verifica que el usuario \"Test_Selenium\" fue creado correctamente",
+            "result": {
+              "status": "passed",
+              "duration": 0.22322559356689453
+            }
+          }
+        ]
+      },
+      {
+        "id": "editar-un-usuario-en-el-sistema",
+        "line": 13,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Editar un usuario en el sistema",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 14,
+            "name": "Abrir Navegador para inicio sesi\u00f3n",
+            "result": {
+              "status": "passed",
+              "duration": 8.650705575942993
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 15,
+            "name": "Ingreso de credenciales y direccionamiento al sistema",
+            "result": {
+              "status": "passed",
+              "duration": 6.65778112411499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 16,
+            "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashboarduser",
+            "result": {
+              "status": "passed",
+              "duration": 1.6623997688293457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 17,
+            "name": "Se selecciona el bot\u00f3n para editar un usuario",
+            "result": {
+              "status": "passed",
+              "duration": 4.887822389602661
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 18,
+            "name": "Se edita el nombre de usuario de Nuria a Test_Edit_Selenium",
+            "result": {
+              "status": "passed",
+              "duration": 5.6240246295928955
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 19,
+            "name": "Se guarda el usuario editado",
+            "result": {
+              "status": "passed",
+              "duration": 2.8815925121307373
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 20,
+            "name": "Se verifica que el usuario fue editado correctamente",
+            "result": {
+              "status": "passed",
+              "duration": 0.1753847599029541
+            }
+          }
+        ]
+      },
+      {
+        "id": "eliminar-un-usuario-en-el-sistema",
+        "line": 22,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Eliminar un usuario en el sistema",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 23,
+            "name": "Abrir Navegador para inicio sesi\u00f3n",
+            "result": {
+              "status": "passed",
+              "duration": 9.009381294250488
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 24,
+            "name": "Ingreso de credenciales y direccionamiento al sistema",
+            "result": {
+              "status": "passed",
+              "duration": 6.57983922958374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 25,
+            "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashboarduser",
+            "result": {
+              "status": "passed",
+              "duration": 1.4927270412445068
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 26,
+            "name": "Se selecciona el bot\u00f3n para eliminar un usuario",
+            "result": {
+              "status": "passed",
+              "duration": 4.65095067024231
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 27,
+            "name": "Se confirma la eliminaci\u00f3n del usuario",
+            "result": {
+              "status": "passed",
+              "duration": 2.4386894702911377
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 28,
+            "name": "Se verifica que el usuario fue eliminado correctamente",
+            "result": {
+              "status": "failed",
+              "duration": 2.039562702178955
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/pruebaLogin.feature",
+    "id": "prueba-para-inicio-de-sesi\u00f3n-b\u00e1sico",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Prueba para inicio de sesi\u00f3n b\u00e1sico",
+    "description": "",
+    "elements": [
+      {
+        "id": "inicio-de-sesi\u00f3n-dashboard",
+        "line": 4,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Inicio de sesi\u00f3n dashboard",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 5,
+            "name": "Abrir navegador",
+            "result": {
+              "status": "passed",
+              "duration": 12.131242275238037
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 6,
+            "name": "Ingreso de credenciales y direccionamiento al dashboard correcto",
+            "result": {
+              "status": "failed",
+              "duration": 0.04710245132446289
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 7,
+            "name": "Verificando dashboard",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
