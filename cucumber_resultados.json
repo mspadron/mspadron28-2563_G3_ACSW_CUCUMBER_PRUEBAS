@@ -22,7 +22,7 @@
             "name": "Abrir Navegador para inicio sesi\u00f3n",
             "result": {
               "status": "passed",
-              "duration": 12.650849103927612
+              "duration": 13.797590494155884
             }
           },
           {
@@ -31,8 +31,8 @@
             "line": 6,
             "name": "Ingreso de credenciales y direccionamiento al sistema",
             "result": {
-              "status": "passed",
-              "duration": 6.907944917678833
+              "status": "failed",
+              "duration": 17.399152278900146
             }
           },
           {
@@ -41,8 +41,8 @@
             "line": 7,
             "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashCategoria",
             "result": {
-              "status": "passed",
-              "duration": 0.9332888126373291
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -51,8 +51,8 @@
             "line": 8,
             "name": "Se selecciona el bot\u00f3n para crear una nueva categoria",
             "result": {
-              "status": "passed",
-              "duration": 0.9103164672851562
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -61,8 +61,8 @@
             "line": 9,
             "name": "Se completa el formulario para la nueva categoria",
             "result": {
-              "status": "passed",
-              "duration": 1.4346466064453125
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -71,8 +71,8 @@
             "line": 10,
             "name": "Se guarda la nueva categoria",
             "result": {
-              "status": "passed",
-              "duration": 1.3727128505706787
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -81,8 +81,8 @@
             "line": 11,
             "name": "Se verifica que la categoria \"TestCategory\" fue creado correctamente",
             "result": {
-              "status": "passed",
-              "duration": 0.2270052433013916
+              "status": "undefined",
+              "duration": 0
             }
           }
         ]
@@ -102,7 +102,7 @@
             "name": "Abrir Navegador para inicio sesi\u00f3n",
             "result": {
               "status": "passed",
-              "duration": 8.899962186813354
+              "duration": 17.199608325958252
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "Ingreso de credenciales y direccionamiento al sistema",
             "result": {
               "status": "passed",
-              "duration": 7.026204824447632
+              "duration": 6.582269906997681
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashCategoria",
             "result": {
               "status": "passed",
-              "duration": 1.4191005229949951
+              "duration": 1.5327088832855225
             }
           },
           {
@@ -131,8 +131,8 @@
             "line": 17,
             "name": "Se selecciona el bot\u00f3n para editar una categoria",
             "result": {
-              "status": "passed",
-              "duration": 4.691755294799805
+              "status": "failed",
+              "duration": 2.112558603286743
             }
           },
           {
@@ -141,8 +141,8 @@
             "line": 18,
             "name": "Se edita el nombre de la categoria de TestCategory a TestCategoryUpdated",
             "result": {
-              "status": "passed",
-              "duration": 5.5116050243377686
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -151,8 +151,8 @@
             "line": 19,
             "name": "Se guarda la categoria editada",
             "result": {
-              "status": "passed",
-              "duration": 2.919750213623047
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -161,8 +161,8 @@
             "line": 20,
             "name": "Se verifica que la categoria fue editada correctamente",
             "result": {
-              "status": "passed",
-              "duration": 0.19082880020141602
+              "status": "undefined",
+              "duration": 0
             }
           }
         ]
@@ -182,7 +182,7 @@
             "name": "Abrir Navegador para inicio sesi\u00f3n",
             "result": {
               "status": "passed",
-              "duration": 7.2842934131622314
+              "duration": 9.28480839729309
             }
           },
           {
@@ -191,8 +191,8 @@
             "line": 24,
             "name": "Ingreso de credenciales y direccionamiento al sistema",
             "result": {
-              "status": "passed",
-              "duration": 6.683627128601074
+              "status": "failed",
+              "duration": 15.250838994979858
             }
           },
           {
@@ -201,8 +201,8 @@
             "line": 25,
             "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashCategoria",
             "result": {
-              "status": "passed",
-              "duration": 1.3167948722839355
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -211,8 +211,8 @@
             "line": 26,
             "name": "Se selecciona el bot\u00f3n para eliminar una categoria",
             "result": {
-              "status": "passed",
-              "duration": 4.77542519569397
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -221,8 +221,8 @@
             "line": 27,
             "name": "Se confirma la eliminaci\u00f3n de la categoria",
             "result": {
-              "status": "passed",
-              "duration": 2.2903780937194824
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -231,8 +231,8 @@
             "line": 28,
             "name": "Se verifica que la categoria fue eliminada correctamente",
             "result": {
-              "status": "passed",
-              "duration": 2.1509246826171875
+              "status": "undefined",
+              "duration": 0
             }
           }
         ]
@@ -262,7 +262,7 @@
             "name": "Abrir Navegador para inicio sesi\u00f3n",
             "result": {
               "status": "passed",
-              "duration": 8.216365098953247
+              "duration": 7.266268730163574
             }
           },
           {
@@ -272,7 +272,7 @@
             "name": "Ingreso de credenciales y direccionamiento al sistema",
             "result": {
               "status": "passed",
-              "duration": 6.810591697692871
+              "duration": 7.414981365203857
             }
           },
           {
@@ -282,7 +282,7 @@
             "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashboardExistencia",
             "result": {
               "status": "passed",
-              "duration": 1.3802108764648438
+              "duration": 1.3230550289154053
             }
           },
           {
@@ -292,7 +292,7 @@
             "name": "Se selecciona el bot\u00f3n para crear una nueva existencia",
             "result": {
               "status": "passed",
-              "duration": 1.0431468486785889
+              "duration": 1.3008143901824951
             }
           },
           {
@@ -302,7 +302,7 @@
             "name": "Se completa el formulario para nueva existencia",
             "result": {
               "status": "passed",
-              "duration": 11.069096565246582
+              "duration": 11.896401643753052
             }
           },
           {
@@ -312,7 +312,7 @@
             "name": "Se guarda nueva existencia",
             "result": {
               "status": "passed",
-              "duration": 1.1453237533569336
+              "duration": 1.000429630279541
             }
           },
           {
@@ -322,7 +322,7 @@
             "name": "Se verifica que nueva existencia fue creada correctamente",
             "result": {
               "status": "passed",
-              "duration": 1.2137787342071533
+              "duration": 1.1792163848876953
             }
           }
         ]
@@ -342,7 +342,7 @@
             "name": "Abrir Navegador para inicio sesi\u00f3n",
             "result": {
               "status": "passed",
-              "duration": 11.546053886413574
+              "duration": 7.985874176025391
             }
           },
           {
@@ -352,7 +352,7 @@
             "name": "Ingreso de credenciales y direccionamiento al sistema",
             "result": {
               "status": "passed",
-              "duration": 7.0552849769592285
+              "duration": 6.229617595672607
             }
           },
           {
@@ -362,7 +362,7 @@
             "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashboardExistencia",
             "result": {
               "status": "passed",
-              "duration": 1.3341224193572998
+              "duration": 1.398538589477539
             }
           },
           {
@@ -372,7 +372,7 @@
             "name": "Se selecciona el bot\u00f3n para agregar entrada",
             "result": {
               "status": "passed",
-              "duration": 1.0314061641693115
+              "duration": 1.2548604011535645
             }
           },
           {
@@ -382,7 +382,7 @@
             "name": "Se agrega la cantidad",
             "result": {
               "status": "passed",
-              "duration": 1.6414012908935547
+              "duration": 1.4576318264007568
             }
           },
           {
@@ -392,7 +392,7 @@
             "name": "Se registra la entrada",
             "result": {
               "status": "passed",
-              "duration": 0.8840904235839844
+              "duration": 1.025465488433838
             }
           }
         ]
@@ -412,7 +412,7 @@
             "name": "Abrir Navegador para inicio sesi\u00f3n",
             "result": {
               "status": "passed",
-              "duration": 8.287375688552856
+              "duration": 10.292458295822144
             }
           },
           {
@@ -422,7 +422,7 @@
             "name": "Ingreso de credenciales y direccionamiento al sistema",
             "result": {
               "status": "passed",
-              "duration": 6.932449817657471
+              "duration": 6.2737016677856445
             }
           },
           {
@@ -432,7 +432,7 @@
             "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashboardExistencia",
             "result": {
               "status": "passed",
-              "duration": 1.4660258293151855
+              "duration": 1.082524299621582
             }
           },
           {
@@ -442,7 +442,7 @@
             "name": "Se selecciona el bot\u00f3n para agregar salida",
             "result": {
               "status": "passed",
-              "duration": 0.8719305992126465
+              "duration": 0.9424538612365723
             }
           },
           {
@@ -452,7 +452,7 @@
             "name": "Se agrega la cantidad salida",
             "result": {
               "status": "passed",
-              "duration": 1.3942179679870605
+              "duration": 1.4506430625915527
             }
           },
           {
@@ -462,7 +462,7 @@
             "name": "Se registra la salida",
             "result": {
               "status": "passed",
-              "duration": 1.030386209487915
+              "duration": 0.9196414947509766
             }
           }
         ]
@@ -492,7 +492,7 @@
             "name": "Abrir Navegador para inicio sesi\u00f3n",
             "result": {
               "status": "passed",
-              "duration": 9.81767463684082
+              "duration": 12.254854917526245
             }
           },
           {
@@ -502,7 +502,7 @@
             "name": "Ingreso de credenciales y direccionamiento al sistema",
             "result": {
               "status": "passed",
-              "duration": 6.492830753326416
+              "duration": 6.31278657913208
             }
           },
           {
@@ -512,7 +512,7 @@
             "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashboardProducto",
             "result": {
               "status": "passed",
-              "duration": 1.2340137958526611
+              "duration": 1.0322461128234863
             }
           },
           {
@@ -522,7 +522,7 @@
             "name": "Se selecciona el bot\u00f3n para crear un nuevo producto",
             "result": {
               "status": "passed",
-              "duration": 0.8760509490966797
+              "duration": 0.9484367370605469
             }
           },
           {
@@ -531,8 +531,8 @@
             "line": 9,
             "name": "Se completa el formulario para el nuevo producto",
             "result": {
-              "status": "passed",
-              "duration": 7.04801344871521
+              "status": "failed",
+              "duration": 1.4194293022155762
             }
           },
           {
@@ -541,8 +541,8 @@
             "line": 10,
             "name": "Se guarda el nuevo producto",
             "result": {
-              "status": "passed",
-              "duration": 0.9556398391723633
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -551,8 +551,8 @@
             "line": 11,
             "name": "Se verifica que el producto fue creado correctamente",
             "result": {
-              "status": "passed",
-              "duration": 1.2079617977142334
+              "status": "undefined",
+              "duration": 0
             }
           }
         ]
@@ -572,7 +572,7 @@
             "name": "Abrir Navegador para inicio sesi\u00f3n",
             "result": {
               "status": "passed",
-              "duration": 20.424955368041992
+              "duration": 9.782276153564453
             }
           },
           {
@@ -582,7 +582,7 @@
             "name": "Ingreso de credenciales y direccionamiento al sistema",
             "result": {
               "status": "passed",
-              "duration": 6.595960855484009
+              "duration": 6.354264497756958
             }
           },
           {
@@ -592,7 +592,7 @@
             "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashboardProducto",
             "result": {
               "status": "passed",
-              "duration": 0.8573014736175537
+              "duration": 1.1438136100769043
             }
           },
           {
@@ -601,8 +601,8 @@
             "line": 17,
             "name": "Se selecciona el bot\u00f3n para editar un producto",
             "result": {
-              "status": "passed",
-              "duration": 4.79544734954834
+              "status": "failed",
+              "duration": 2.0196573734283447
             }
           },
           {
@@ -611,8 +611,8 @@
             "line": 18,
             "name": "Se edita el nombre de producto de Producto Test Selenium a Producto Updated",
             "result": {
-              "status": "passed",
-              "duration": 5.782657861709595
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -621,8 +621,8 @@
             "line": 19,
             "name": "Se guarda el producto editado",
             "result": {
-              "status": "failed",
-              "duration": 12.332392930984497
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -652,7 +652,7 @@
             "name": "Abrir Navegador para inicio sesi\u00f3n",
             "result": {
               "status": "passed",
-              "duration": 7.442650556564331
+              "duration": 8.211565494537354
             }
           },
           {
@@ -662,7 +662,7 @@
             "name": "Ingreso de credenciales y direccionamiento al sistema",
             "result": {
               "status": "passed",
-              "duration": 5.99654221534729
+              "duration": 6.217786073684692
             }
           },
           {
@@ -672,7 +672,7 @@
             "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashboardProducto",
             "result": {
               "status": "passed",
-              "duration": 1.4187090396881104
+              "duration": 1.0726113319396973
             }
           },
           {
@@ -681,8 +681,8 @@
             "line": 26,
             "name": "Se selecciona el bot\u00f3n para eliminar un producto",
             "result": {
-              "status": "passed",
-              "duration": 4.5279388427734375
+              "status": "failed",
+              "duration": 2.0176944732666016
             }
           },
           {
@@ -691,8 +691,8 @@
             "line": 27,
             "name": "Se confirma la eliminaci\u00f3n del producto",
             "result": {
-              "status": "passed",
-              "duration": 2.246948003768921
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -701,8 +701,8 @@
             "line": 28,
             "name": "Se verifica que el producto fue eliminado correctamente",
             "result": {
-              "status": "passed",
-              "duration": 2.1349124908447266
+              "status": "undefined",
+              "duration": 0
             }
           }
         ]
@@ -732,7 +732,7 @@
             "name": "Abrir Navegador para inicio sesi\u00f3n",
             "result": {
               "status": "passed",
-              "duration": 7.8665101528167725
+              "duration": 8.012224912643433
             }
           },
           {
@@ -742,7 +742,7 @@
             "name": "Ingreso de credenciales y direccionamiento al sistema",
             "result": {
               "status": "passed",
-              "duration": 6.748810529708862
+              "duration": 6.29795241355896
             }
           },
           {
@@ -752,7 +752,7 @@
             "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashProveedor",
             "result": {
               "status": "passed",
-              "duration": 1.2210910320281982
+              "duration": 0.9854850769042969
             }
           },
           {
@@ -762,7 +762,7 @@
             "name": "Se selecciona el bot\u00f3n para crear un nuevo proveedor",
             "result": {
               "status": "passed",
-              "duration": 0.8383505344390869
+              "duration": 0.8328981399536133
             }
           },
           {
@@ -772,7 +772,7 @@
             "name": "Se completa el formulario para el nuevo proveedor",
             "result": {
               "status": "passed",
-              "duration": 4.896785020828247
+              "duration": 4.891042232513428
             }
           },
           {
@@ -782,7 +782,7 @@
             "name": "Se guarda el nuevo proveedor",
             "result": {
               "status": "passed",
-              "duration": 0.9290900230407715
+              "duration": 1.68757963180542
             }
           },
           {
@@ -792,7 +792,7 @@
             "name": "Se verifica que el proveedor fue creado correctamente",
             "result": {
               "status": "passed",
-              "duration": 1.1738314628601074
+              "duration": 1.2233526706695557
             }
           }
         ]
@@ -812,7 +812,7 @@
             "name": "Abrir Navegador para inicio sesi\u00f3n",
             "result": {
               "status": "passed",
-              "duration": 8.450302600860596
+              "duration": 8.154186010360718
             }
           },
           {
@@ -822,7 +822,7 @@
             "name": "Ingreso de credenciales y direccionamiento al sistema",
             "result": {
               "status": "passed",
-              "duration": 6.536898374557495
+              "duration": 6.144788980484009
             }
           },
           {
@@ -832,7 +832,7 @@
             "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashProveedor",
             "result": {
               "status": "passed",
-              "duration": 1.1665775775909424
+              "duration": 1.2274470329284668
             }
           },
           {
@@ -842,7 +842,7 @@
             "name": "Se selecciona el bot\u00f3n para editar un proveedor",
             "result": {
               "status": "passed",
-              "duration": 4.590805768966675
+              "duration": 4.527548789978027
             }
           },
           {
@@ -852,7 +852,7 @@
             "name": "Se edita el nombre del proveedor",
             "result": {
               "status": "passed",
-              "duration": 5.657978057861328
+              "duration": 6.2759034633636475
             }
           },
           {
@@ -862,7 +862,7 @@
             "name": "Se guarda el proveedor editado",
             "result": {
               "status": "passed",
-              "duration": 2.886389970779419
+              "duration": 2.875308036804199
             }
           },
           {
@@ -872,7 +872,7 @@
             "name": "Se verifica que el proveedor fue editado correctamente",
             "result": {
               "status": "passed",
-              "duration": 0.15770673751831055
+              "duration": 0.15480327606201172
             }
           }
         ]
@@ -892,7 +892,7 @@
             "name": "Abrir Navegador para inicio sesi\u00f3n",
             "result": {
               "status": "passed",
-              "duration": 8.499058246612549
+              "duration": 7.340811729431152
             }
           },
           {
@@ -902,7 +902,7 @@
             "name": "Ingreso de credenciales y direccionamiento al sistema",
             "result": {
               "status": "passed",
-              "duration": 6.5419602394104
+              "duration": 6.021812915802002
             }
           },
           {
@@ -912,7 +912,7 @@
             "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashProveedor",
             "result": {
               "status": "passed",
-              "duration": 1.272951602935791
+              "duration": 1.3078947067260742
             }
           },
           {
@@ -922,7 +922,7 @@
             "name": "Se selecciona el bot\u00f3n para eliminar un proveedor",
             "result": {
               "status": "passed",
-              "duration": 4.522456169128418
+              "duration": 4.5943968296051025
             }
           },
           {
@@ -932,7 +932,7 @@
             "name": "Se confirma la eliminaci\u00f3n del proveedor",
             "result": {
               "status": "passed",
-              "duration": 2.320302724838257
+              "duration": 2.500825881958008
             }
           },
           {
@@ -942,7 +942,197 @@
             "name": "Se verifica que el proveedor fue eliminado correctamente",
             "result": {
               "status": "passed",
-              "duration": 2.1440634727478027
+              "duration": 2.230301856994629
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/gestionarReportes.feature",
+    "id": "gestionar-reportes",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Gestionar Reportes",
+    "description": "",
+    "elements": [
+      {
+        "id": "crear-reporte-de-entradas-de-existencias",
+        "line": 4,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Crear reporte de entradas de existencias",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 5,
+            "name": "Abrir Navegador para inicio sesi\u00f3n",
+            "result": {
+              "status": "passed",
+              "duration": 11.791379451751709
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 6,
+            "name": "Ingreso de credenciales y direccionamiento al sistema",
+            "result": {
+              "status": "passed",
+              "duration": 7.171599864959717
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 7,
+            "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashEntrada",
+            "result": {
+              "status": "passed",
+              "duration": 1.1381661891937256
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 8,
+            "name": "Se selecciona el bot\u00f3n para descargar el pdf de entradas",
+            "result": {
+              "status": "passed",
+              "duration": 1.1362643241882324
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 9,
+            "name": "Se verifica que se haya descargado el pdf de entradas",
+            "result": {
+              "status": "passed",
+              "duration": 2.2548797130584717
+            }
+          }
+        ]
+      },
+      {
+        "id": "crear-reporte-de-salidas-de-existencias",
+        "line": 11,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Crear reporte de salidas de existencias",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 12,
+            "name": "Abrir Navegador para inicio sesi\u00f3n",
+            "result": {
+              "status": "passed",
+              "duration": 10.871936798095703
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 13,
+            "name": "Ingreso de credenciales y direccionamiento al sistema",
+            "result": {
+              "status": "passed",
+              "duration": 11.250434875488281
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 14,
+            "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashSalida",
+            "result": {
+              "status": "passed",
+              "duration": 4.0491790771484375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 15,
+            "name": "Se selecciona el bot\u00f3n para descargar el pdf de salidas",
+            "result": {
+              "status": "passed",
+              "duration": 4.854498386383057
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 16,
+            "name": "Se verifica que se haya descargado el pdf de salidas",
+            "result": {
+              "status": "passed",
+              "duration": 1.0548946857452393
+            }
+          }
+        ]
+      },
+      {
+        "id": "crear-reporte-de-existencias-minimas",
+        "line": 18,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Crear reporte de existencias minimas",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 19,
+            "name": "Abrir Navegador para inicio sesi\u00f3n",
+            "result": {
+              "status": "failed",
+              "duration": 35.04218673706055
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 20,
+            "name": "Ingreso de credenciales y direccionamiento al sistema",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 21,
+            "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashMixEx",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 22,
+            "name": "Se selecciona el bot\u00f3n para descargar el pdf de existencias minimas",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 23,
+            "name": "Se verifica que se haya descargado el pdf de existencias minimas",
+            "result": {
+              "status": "undefined",
+              "duration": 0
             }
           }
         ]
@@ -972,7 +1162,7 @@
             "name": "Abrir Navegador para inicio sesi\u00f3n",
             "result": {
               "status": "passed",
-              "duration": 9.24196481704712
+              "duration": 13.785423278808594
             }
           },
           {
@@ -982,7 +1172,7 @@
             "name": "Ingreso de credenciales y direccionamiento al sistema",
             "result": {
               "status": "passed",
-              "duration": 6.7749598026275635
+              "duration": 10.520817518234253
             }
           },
           {
@@ -992,7 +1182,7 @@
             "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashboarduser",
             "result": {
               "status": "passed",
-              "duration": 1.2774829864501953
+              "duration": 4.417165756225586
             }
           },
           {
@@ -1002,7 +1192,7 @@
             "name": "Se selecciona el bot\u00f3n para crear un nuevo usuario",
             "result": {
               "status": "passed",
-              "duration": 0.7633118629455566
+              "duration": 1.8087093830108643
             }
           },
           {
@@ -1012,7 +1202,7 @@
             "name": "Se completa el formulario de creaci\u00f3n con datos v\u00e1lidos",
             "result": {
               "status": "passed",
-              "duration": 5.172575235366821
+              "duration": 10.693844079971313
             }
           },
           {
@@ -1022,7 +1212,7 @@
             "name": "Se guarda el nuevo usuario",
             "result": {
               "status": "passed",
-              "duration": 1.2719852924346924
+              "duration": 3.6914799213409424
             }
           },
           {
@@ -1032,7 +1222,7 @@
             "name": "Se verifica que el usuario \"Test_Selenium\" fue creado correctamente",
             "result": {
               "status": "passed",
-              "duration": 0.22322559356689453
+              "duration": 0.19849634170532227
             }
           }
         ]
@@ -1052,7 +1242,7 @@
             "name": "Abrir Navegador para inicio sesi\u00f3n",
             "result": {
               "status": "passed",
-              "duration": 8.650705575942993
+              "duration": 9.38968563079834
             }
           },
           {
@@ -1062,7 +1252,7 @@
             "name": "Ingreso de credenciales y direccionamiento al sistema",
             "result": {
               "status": "passed",
-              "duration": 6.65778112411499
+              "duration": 12.922919034957886
             }
           },
           {
@@ -1072,7 +1262,7 @@
             "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashboarduser",
             "result": {
               "status": "passed",
-              "duration": 1.6623997688293457
+              "duration": 3.8246421813964844
             }
           },
           {
@@ -1081,8 +1271,8 @@
             "line": 17,
             "name": "Se selecciona el bot\u00f3n para editar un usuario",
             "result": {
-              "status": "passed",
-              "duration": 4.887822389602661
+              "status": "failed",
+              "duration": 2.192652702331543
             }
           },
           {
@@ -1091,8 +1281,8 @@
             "line": 18,
             "name": "Se edita el nombre de usuario de Nuria a Test_Edit_Selenium",
             "result": {
-              "status": "passed",
-              "duration": 5.6240246295928955
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -1101,8 +1291,8 @@
             "line": 19,
             "name": "Se guarda el usuario editado",
             "result": {
-              "status": "passed",
-              "duration": 2.8815925121307373
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -1111,8 +1301,8 @@
             "line": 20,
             "name": "Se verifica que el usuario fue editado correctamente",
             "result": {
-              "status": "passed",
-              "duration": 0.1753847599029541
+              "status": "undefined",
+              "duration": 0
             }
           }
         ]
@@ -1132,7 +1322,7 @@
             "name": "Abrir Navegador para inicio sesi\u00f3n",
             "result": {
               "status": "passed",
-              "duration": 9.009381294250488
+              "duration": 10.095153570175171
             }
           },
           {
@@ -1142,7 +1332,7 @@
             "name": "Ingreso de credenciales y direccionamiento al sistema",
             "result": {
               "status": "passed",
-              "duration": 6.57983922958374
+              "duration": 11.977896451950073
             }
           },
           {
@@ -1152,7 +1342,7 @@
             "name": "Verificando ingreso correcto del sistema y selecci\u00f3n dashboarduser",
             "result": {
               "status": "passed",
-              "duration": 1.4927270412445068
+              "duration": 4.924770832061768
             }
           },
           {
@@ -1162,7 +1352,7 @@
             "name": "Se selecciona el bot\u00f3n para eliminar un usuario",
             "result": {
               "status": "passed",
-              "duration": 4.65095067024231
+              "duration": 4.535200595855713
             }
           },
           {
@@ -1172,7 +1362,7 @@
             "name": "Se confirma la eliminaci\u00f3n del usuario",
             "result": {
               "status": "passed",
-              "duration": 2.4386894702911377
+              "duration": 2.346217393875122
             }
           },
           {
@@ -1182,57 +1372,7 @@
             "name": "Se verifica que el usuario fue eliminado correctamente",
             "result": {
               "status": "failed",
-              "duration": 2.039562702178955
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "uri": "features/pruebaLogin.feature",
-    "id": "prueba-para-inicio-de-sesi\u00f3n-b\u00e1sico",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "Prueba para inicio de sesi\u00f3n b\u00e1sico",
-    "description": "",
-    "elements": [
-      {
-        "id": "inicio-de-sesi\u00f3n-dashboard",
-        "line": 4,
-        "type": "scenario",
-        "keyword": "Scenario",
-        "name": "Inicio de sesi\u00f3n dashboard",
-        "description": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given",
-            "line": 5,
-            "name": "Abrir navegador",
-            "result": {
-              "status": "passed",
-              "duration": 12.131242275238037
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When",
-            "line": 6,
-            "name": "Ingreso de credenciales y direccionamiento al dashboard correcto",
-            "result": {
-              "status": "failed",
-              "duration": 0.04710245132446289
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then",
-            "line": 7,
-            "name": "Verificando dashboard",
-            "result": {
-              "status": "undefined",
-              "duration": 0
+              "duration": 2.0658273696899414
             }
           }
         ]
