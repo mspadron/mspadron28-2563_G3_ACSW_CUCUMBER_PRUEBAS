@@ -57,7 +57,7 @@ def add_screenshot_to_pdf(pdf, image_path, step_description):
 def abrir_navegador(context):
     ensure_pdf_initialized(context)
     setup_browser(context)
-    context.driver.get('http://localhost:5174/')
+    context.driver.get('http://localhost:5173/')
     screenshot_path = take_screenshot(context, 'open_browser')
     add_screenshot_to_pdf(context.pdf, screenshot_path, "Abrir navegador")
 
@@ -69,17 +69,17 @@ def ingreso_valido_dashboard(context):
     # Ingresar credenciales
     username_field = context.driver.find_element(By.NAME, 'nombre_usuario')
     password_field = context.driver.find_element(By.NAME, 'clave_usuario')
-    username_field.send_keys('Matias')
+    username_field.send_keys('Matias Padron =')
     password_field.send_keys('mspadron')
     # Tomar captura antes de enviar
     screenshot_path = take_screenshot(context, 'validUserNameAndPassword')
     add_screenshot_to_pdf(context.pdf, screenshot_path, "Proporcionar credenciales válidas")
     context.driver.find_element(By.NAME, 'submit').click()
     time.sleep(1)
-    context.driver.get('http://localhost:5174/dashboard')
+    context.driver.get('http://localhost:5173/dashboard')
     # Esperar redirección al dashboard
     WebDriverWait(context.driver, 10).until(
-        EC.url_to_be("http://localhost:5174/dashboard")
+        EC.url_to_be("http://localhost:5173/dashboard")
     )
     time.sleep(3)
     print("Redirigido correctamente al dashboard.")
@@ -104,9 +104,9 @@ def verificacion_y_seleccion_usuario(context):
 
         # Esperar redirección a la URL de 'Usuarios'
         WebDriverWait(context.driver, 10).until(
-            EC.url_to_be("http://localhost:5174/dashUser")
+            EC.url_to_be("http://localhost:5173/dashUser")
         )
-        assert context.driver.current_url == "http://localhost:5174/dashUser", \
+        assert context.driver.current_url == "http://localhost:5173/dashUser", \
             "La URL no coincide con la página de 'Usuarios'."
 
         # Tomar captura de pantalla

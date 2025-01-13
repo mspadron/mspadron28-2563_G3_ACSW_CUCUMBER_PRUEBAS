@@ -1,5 +1,5 @@
 # Created by MATIAS at 6/1/2025
-Feature: Gestion Existencia
+Feature: Gestionar Existencia
 
   Scenario: Crear existencia
     Given Abrir Navegador para inicio sesión

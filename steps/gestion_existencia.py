@@ -71,9 +71,9 @@ def verificacion_y_seleccion_existencia(context):
 
 
         WebDriverWait(context.driver, 10).until(
-            EC.url_to_be("http://localhost:5174/dashExistencia")
+            EC.url_to_be("http://localhost:5173/dashExistencia")
         )
-        assert context.driver.current_url == "http://localhost:5174/dashExistencia", \
+        assert context.driver.current_url == "http://localhost:5173/dashExistencia", \
             "La URL no coincide con la página de 'Existencias'."
 
         # Tomar captura de pantalla

@@ -71,9 +71,9 @@ def verificacion_y_seleccion_proveedor(context):
 
         # Esperar redirección a la URL de 'Proveedores'
         WebDriverWait(context.driver, 10).until(
-            EC.url_to_be("http://localhost:5174/dashProveedor")
+            EC.url_to_be("http://localhost:5173/dashProveedor")
         )
-        assert context.driver.current_url == "http://localhost:5174/dashProveedor", \
+        assert context.driver.current_url == "http://localhost:5173/dashProveedor", \
             "La URL no coincide con la página de 'Proveedores'."
 
         # Tomar captura de pantalla

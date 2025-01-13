@@ -71,9 +71,9 @@ def verificacion_y_seleccion_reportes(context):
 
         # Esperar redirección a la URL de 'Productos'
         WebDriverWait(context.driver, 10).until(
-            EC.url_to_be("http://localhost:5174/dashEntrada")
+            EC.url_to_be("http://localhost:5173/dashEntrada")
         )
-        assert context.driver.current_url == "http://localhost:5174/dashEntrada", \
+        assert context.driver.current_url == "http://localhost:5173/dashEntrada", \
             "La URL no coincide con la página de 'Entradas'."
 
         # Tomar captura de pantalla
@@ -156,9 +156,9 @@ def verificacion_y_seleccion_dash_salida(context):
 
         # Esperar redirección a la URL de 'Salidas'
         WebDriverWait(context.driver, 10).until(
-            EC.url_to_be("http://localhost:5174/dashSalida")
+            EC.url_to_be("http://localhost:5173/dashSalida")
         )
-        assert context.driver.current_url == "http://localhost:5174/dashSalida", \
+        assert context.driver.current_url == "http://localhost:5173/dashSalida", \
             "La URL no coincide con la página de 'Salidas'."
 
         # Tomar captura de pantalla
@@ -240,9 +240,9 @@ def verificacion_y_seleccion_dash_mix_ex(context):
 
         # Esperar redirección a la URL de 'Existencias Mínimas'
         WebDriverWait(context.driver, 10).until(
-            EC.url_to_be("http://localhost:5174/reporteMinExis")
+            EC.url_to_be("http://localhost:5173/reporteMinExis")
         )
-        assert context.driver.current_url == "http://localhost:5174/reporteMinExis", \
+        assert context.driver.current_url == "http://localhost:5173/reporteMinExis", \
             "La URL no coincide con la página de 'Existencias Mínimas'."
 
         # Tomar captura de pantalla

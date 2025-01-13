@@ -70,9 +70,9 @@ def verificacion_y_seleccion_categoria(context):
 
         # Esperar redirección a la URL de 'Usuarios'
         WebDriverWait(context.driver, 10).until(
-            EC.url_to_be("http://localhost:5174/dashCategoria")
+            EC.url_to_be("http://localhost:5173/dashCategoria")
         )
-        assert context.driver.current_url == "http://localhost:5174/dashCategoria", \
+        assert context.driver.current_url == "http://localhost:5173/dashCategoria", \
             "La URL no coincide con la página de 'Usuarios'."
 
         # Tomar captura de pantalla

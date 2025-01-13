@@ -71,9 +71,9 @@ def verificacion_y_seleccion_producto(context):
 
         # Esperar redirección a la URL de 'Productos'
         WebDriverWait(context.driver, 10).until(
-            EC.url_to_be("http://localhost:5174/dashProducto")
+            EC.url_to_be("http://localhost:5173/dashProducto")
         )
-        assert context.driver.current_url == "http://localhost:5174/dashProducto", \
+        assert context.driver.current_url == "http://localhost:5173/dashProducto", \
             "La URL no coincide con la página de 'Productos'."
 
         # Tomar captura de pantalla

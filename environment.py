@@ -5,10 +5,10 @@ from datetime import datetime
 class PDF(FPDF):
     def header(self):
         # Aquí puedes ajustar la posición y tamaño del logo si tienes uno.
-        if os.path.exists('logo.png'):
-            self.image('logo.png', 10, 8, 33)
+        if os.path.exists('logo.jpg'):
+            self.image('logo.jpg', 10, 8, 33)
         self.set_font('Arial', 'B', 12)
-        self.cell(0, 10, 'Reporte de Pruebas - UrbTreasurySystem', ln=True, align='C')
+        self.cell(0, 10, 'Reporte de Pruebas - Sistema Bazar y Papeleria', ln=True, align='C')
         self.ln(5)
 
     def footer(self):
@@ -55,7 +55,7 @@ def before_scenario(context, scenario):
     context.pdf.set_font('Arial', '', 12)
     context.pdf.multi_cell(0, 10, (
         "Este documento presenta los resultados del escenario de prueba "
-        "ejecutado para la aplicación UrbTreasurySystem. Incluye capturas "
+        "ejecutado para la aplicación Sistema Bazar y Papelería. Incluye capturas "
         "de pantalla y observaciones pertinentes."
     ))
     context.pdf.ln(20)
@@ -73,7 +73,7 @@ def before_scenario(context, scenario):
     context.pdf.add_chapter_title('1. Detalles del Escenario')
     context.pdf.add_paragraph(
         "Este escenario se enfoca en validar las funcionalidades críticas "
-        "de la aplicación UrbTreasurySystem mediante el uso de credenciales válidas e inválidas. "
+        "de la aplicación Sistema Bazar y Papelería. "
         "A continuación, se presentan las capturas de pantalla tomadas durante la ejecución de este escenario."
     )
 
